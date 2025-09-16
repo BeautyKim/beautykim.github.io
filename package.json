@@ -2,7 +2,7 @@
   "name": "project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://BeautyKim.github.io/portfolio2025",
+  "homepage": "https://beautykim.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
