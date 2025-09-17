@@ -1,10 +1,8 @@
 
 export function ContactSection() {
     const contactInfo = [
-        { label: 'email', value: 'beautykim@example.com', icon: 'ri-mail-line' },
-        { label: 'linkedin', value: '/in/beautykim', icon: 'ri-linkedin-line' },
+        { label: 'email', value: 'shadowbubobubo@gmail.com', icon: 'ri-mail-line' },
         { label: 'github', value: '/BeautyKim', icon: 'ri-github-line' },
-        { label: 'phone', value: '+82 10-1234-5678', icon: 'ri-phone-line' },
     ];
 
     const handleSendMessage = () => {
@@ -23,7 +21,7 @@ export function ContactSection() {
                         <span>$ mail BeautyKim</span>
                     </div>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Connect</h2>
-                    <p className="text-lg leading-relaxed max-w-2xl mx-auto">
+                    <p className="text-lg leading-relaxed max-w-2xl mx-auto break-keep">
                         새로운 프로젝트나 협업 기회에 대해 이야기하고 싶으시다면 언제든지 연락해주세요.
                         함께 멋진 것을 만들어봅시다!
                     </p>
@@ -67,16 +65,6 @@ export function ContactSection() {
                     <p className="text-sm opacity-75">
                         © 2024 BeautyKim. Built with React, TypeScript, and lots of ☕
                     </p>
-                    <div className="mt-4">
-                        <a
-                            href="https://readdy.ai/?origin=logo"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-sm text-[#007acc] dark:text-[#39FF14] hover:underline"
-                        >
-                            Made with Readdy
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>
